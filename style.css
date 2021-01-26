@@ -1,0 +1,37 @@
+:root {
+    --primary: #3dcfd3;
+    --dark:#3D3D3D;
+    --pure:#fff;
+    --ternary: #898989;
+    --light: #F1EFEF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    height: 800vh;
+    background: var(--dark);
+}
+
+.navbar__container {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+  }
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+.logo a{
+    color: var(--pure);
+}
